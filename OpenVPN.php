@@ -208,6 +208,8 @@ function TestVPN(){
 }
 function Set_Config(){
 	global $config_file;
+	global $CCyan;
+	global $CGreen;	
 	$config = new DOMDocument("1.0");
 	$config->preserveWhiteSpace = false;
 	$config->formatOutput = true;				
